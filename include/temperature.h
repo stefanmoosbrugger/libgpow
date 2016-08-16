@@ -41,6 +41,7 @@ public:
     
     void reset() {
         temp_log = std::vector<std::vector<unsigned int> >();
+        temp_log.clear();
         temp_log.resize(sys.getDeviceCount());
     }
 
